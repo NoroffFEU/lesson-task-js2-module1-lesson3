@@ -8,8 +8,7 @@ const container = ".result-container";
 async function fetchBooks() {
     try {
         const response = await fetch(url);
-        const json = await response.json();
-        const books = json.data;
+        const books = await response.json();
         createBooks(books, container);
         searchBooks(books, container);
     } catch (error) {
