@@ -5,7 +5,7 @@
 Connect to this API endpoint:
 
 ```js
-https://noroff.herokuapp.com/v1/books
+https://api.noroff.dev/api/v1/books
 ```
 
 Display the `title`, `author` and `publisher` properties for each result.
