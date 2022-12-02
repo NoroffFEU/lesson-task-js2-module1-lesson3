@@ -1,1 +1,1 @@
-export const url = "https://noroff.herokuapp.com/v1/books";
+export const url = "https://api.noroff.dev/api/v1/books";
